@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - IP address tracker
 
 ![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)
@@ -107,3 +108,6 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# IP-Address-Tracker
+>>>>>>> 3458cf22049d6c494cadb7b439e9cec589e924d5
