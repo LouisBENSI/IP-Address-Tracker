@@ -13,54 +13,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-          crossorigin=""/>
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
     <title>Frontend Mentor | IP Address Tracker</title>
 </head>
 <body>
 
 <section class="o-hero">
 
-    <h1>IP Address Tracker</h1>
+    <h1>Traqueur d'adresse IP</h1>
 
     <div class="o-form">
-        <input id="input" type="text" placeholder="Search for any IP address or domain">
+        <input id="input" type="text" placeholder="Votre adresse IP">
         <button id="bouton"><img src="images/icon-arrow.svg" alt=""></button>
+    </div>
+
+    <div class="errorMessage hidden">
+        Mettez une adresse IP
     </div>
 
     <div class="o-hero__infos">
         <div class="o-hero__infos-items">
-            <h2>IP Address</h2>
+            <h2>Adresse IP :</h2>
             <p id="ip"></p>
         </div>
         <div class="o-hero__infos-items">
-            <h2>Location</h2>
+            <h2>Localisation :</h2>
             <p id="city"></p>
         </div>
         <div class="o-hero__infos-items">
-            <h2>Timezone</h2>
+            <h2>Fuseaux horaire :</h2>
             <p id="utc"></p>
         </div>
         <div class="o-hero__infos-items">
-            <h2>ISP</h2>
+            <h2>ISP :</h2>
             <p id="isp"></p>
         </div>
     </div>
 </section>
 
-<section>
-    <div id="mapid"></div>
-</section>
+<div id="mapid"></div>
 
-<div class="attribution">
+
+<div>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Louis BENSI</a>.
 </div>
-</body>
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+
 <script src="assets/script.js"></script>
+</body>
 </html>

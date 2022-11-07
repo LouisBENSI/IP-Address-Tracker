@@ -54,10 +54,12 @@ main {
 
     button {
       background-color: hsl(0, 0%, 17%);
-      width: 50px;
       border-bottom-right-radius: 8px;
       border-top-right-radius: 8px;
+      cursor: pointer;
+      width: 50px;
     }
+
   }
 
   .o-hero__infos {
@@ -98,4 +100,23 @@ main {
 
 #mapid {
   height: 65vh;
+}
+
+.errorMessage {
+  background: red;
+  max-width: 750px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color : white;
+  padding: 4px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
 }
